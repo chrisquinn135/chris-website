@@ -1,0 +1,15 @@
+.grid-display{
+    display:grid;
+    font-family: 'Marcellus SC';
+    text-align: center;
+    padding-top: 20em;
+    justify-items: center;
+}
+
+.logo {
+    display:grid;
+    margin-top:2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+grid-gap:5em;
+}

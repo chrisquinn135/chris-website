@@ -1,0 +1,35 @@
+.contact {
+    background-color: #EDEDED;
+    padding:2em;
+    display:grid;
+    text-align: center;
+}
+
+.logo-grid {
+    display:grid;
+    justify-items: center;
+    grid-gap:1em;
+
+}
+
+.group-grid {
+    display:grid;
+    font-family:'Marcellus';
+    grid-gap:2em;
+    padding-bottom: 5em;
+}
+
+@media (min-width:400px) {
+    .group-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+    .grid {
+        width:40em
+    }
+
+    .description {
+        width:40em;
+    }
+}

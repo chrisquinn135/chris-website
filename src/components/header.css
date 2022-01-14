@@ -1,0 +1,44 @@
+.head {
+    font-family: 'Marcellus SC';
+    position:fixed;
+    background-color: white;
+    width:100%;
+    display:grid;
+    grid-template-columns: .2fr 1fr .2fr;
+    padding: 0.5em;
+    align-items: center;
+}
+
+.label {
+
+}
+
+.navbar-1 {
+    position:fixed;
+    background-color: #14213D;
+    display:flex;
+    flex-direction: column;
+    padding-left:3em;
+    grid-gap:2em;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height:100vh;
+    width:20em;
+    color:white;
+    top:0;
+    font-family:'Manuale';
+
+    left:-100%;
+
+    transition:850ms;
+}
+
+.navbar-1.active {
+    left:0;
+    transition:350ms;
+    padding-left:3em;
+    grid-gap:2em;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family:'Manuale';
+}

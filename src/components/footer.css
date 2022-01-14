@@ -1,0 +1,9 @@
+.footer {
+    background-color: #6498AF;
+    color: white;
+    padding:1em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: .7em;
+    font-family: 'Manuale';
+}
