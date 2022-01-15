@@ -1,9 +1,9 @@
 .grid-display{
     display:grid;
-    font-family: 'Marcellus SC';
     text-align: center;
     padding-top: 20em;
     justify-items: center;
+    grid-gap:28px;
 }
 
 .logo {
@@ -12,4 +12,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 grid-gap:5em;
+}
+
+.title{
+    width:15em;
+}
+@media (min-width:400px) {
+    .title {
+        width:30em;
+    }
 }

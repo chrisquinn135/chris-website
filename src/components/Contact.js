@@ -9,32 +9,32 @@ const Contact = () => {
 
     return (
         <div className='contact'>
-            <div>
+            <div className='body'>
                 Contact
             </div>
-            <div className='header' style={{ height: '5em' }}>
+            <div className='header-2' style={{ height: '5em' }}>
                 Let's Connect
             </div>
             <div className='group-grid'>
                 <div className='logo-grid'>
+                <img src={emailLogo} style={{ height: '2.5em' }} />
                     <div>
                         Email Me!
                     </div>
-                    <img src={emailLogo} style={{ height: '2.5em' }} />
                     <div>christophersu02@gmail.com</div>
                 </div>
                 <div className='logo-grid'>
+                <img src={github} style={{ height: '2.5em' }} />
                     <div>
                         Find Me At!
                     </div>
-                    <img src={github} style={{ height: '2.5em' }} />
                     <div>GITHUB LINK</div>
                 </div>
                 <div className='logo-grid'>
+                <img src={linkedin} style={{ height: '2.5em' }} />
                     <div>
                         Let's Connect!
                     </div>
-                    <img src={linkedin} style={{ height: '2.5em' }} />
                     <div>LinkedIn Link</div>
                 </div>
             </div>

@@ -14,7 +14,6 @@
 
 .group-grid {
     display:grid;
-    font-family:'Marcellus';
     grid-gap:2em;
     padding-bottom: 5em;
 }

@@ -1,13 +1,30 @@
 .header {
-    font-size:2em;
+    font-size:2.25em;
+    font-weight:bold;
     text-align: center;
 }
 
 .header-2 {
-    font-size:2em;
-    color: white;
+    font-size:1.75em;
+    font-weight:bold;
 }
 
+.header-3 {
+    font-size:1.5em;
+    font-weight:600;
+}
+
+.header-4 {
+    font-size:1.375em;
+    font-weight:600;
+}
+
+.body {
+    font-size:1em;
+    font-weight:400;
+}
+
+
 .App {
-    font-family: 'Marcellus SC';
+    font-family: 'Open Sans';
 }

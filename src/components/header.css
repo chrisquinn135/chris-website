@@ -1,5 +1,4 @@
 .head {
-    font-family: 'Marcellus SC';
     position:fixed;
     background-color: white;
     width:100%;
@@ -9,9 +8,6 @@
     align-items: center;
 }
 
-.label {
-
-}
 
 .navbar-1 {
     position:fixed;
@@ -26,7 +22,6 @@
     width:20em;
     color:white;
     top:0;
-    font-family:'Manuale';
 
     left:-100%;
 
@@ -40,5 +35,4 @@
     grid-gap:2em;
     justify-content: flex-start;
     align-items: flex-start;
-    font-family:'Manuale';
 }

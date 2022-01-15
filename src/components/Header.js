@@ -12,7 +12,7 @@ const Header = () => {
     useEffect(() => {
         WebFont.load({
             google: {
-                families: ['Marcellus', 'Marcellus SC', 'Open Sans', 'Manuale']
+                families: ['Open Sans']
             }
         });
     }, []);
@@ -25,10 +25,10 @@ const Header = () => {
 
 
     return (
-        <div style={{position:'fixed'}}>
+        <div style={{position:'fixed', zIndex: 999}}>
             <div className='head' style={{height:80}}>
                 <BsList size={30} onClick={onClick} />
-                <div className='label' style={{ textAlign: 'center', fontSize: '1.5em' }}>Christopher Su</div>
+                <div className='header-3' style={{ textAlign: 'center', fontSize: '1.5em' }}>CHRISTOPHER SU</div>
 
 
 

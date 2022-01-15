@@ -4,9 +4,15 @@
     display:grid;
     justify-items:center;
     grid-gap: 1em;
-    font-family: 'Manuale';
     padding-bottom: 5em;
     
+}
+
+
+.info {
+    margin-top:3em;
+    display:grid;
+    justify-items:center;
 }
 
 .description {
@@ -14,6 +20,17 @@
     line-height: 3em;
     padding:3em;
     padding-top: 1em;
+}
+
+.about-head {
+    color:white;
+    text-align: center;
+    padding-top:2em;
+}
+
+.pro-tech {
+    display:grid;
+    margin-top:3em;
 }
 
 .type {
@@ -43,7 +60,24 @@
         width:40em
     }
 
+    .about-head {
+        padding-top: 0;
+        text-align: left;
+        padding-left:2em;
+    }
+
     .description {
+        width:25em;
+    }
+
+    .info {
+        grid-template-columns: 1fr 1fr;
         width:40em;
+        
+    }
+
+    .pro-tech {
+        grid-template-columns: 40em 40em;
+        
     }
 }

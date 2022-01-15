@@ -21,6 +21,10 @@ const Page = () => {
             <About about={about}/>
             <Projects/>
             <Contact />
+            <Contact />
+            <Contact />
+            <Contact />
+            
             <Footer/>
             
         </div>
