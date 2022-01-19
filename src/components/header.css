@@ -6,6 +6,7 @@
     grid-template-columns: .2fr 1fr .2fr;
     padding: 0.5em;
     align-items: center;
+    justify-items: center;
 }
 
 
@@ -35,4 +36,28 @@
     grid-gap:2em;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.visible {
+    display: none;
+}
+
+.opp {
+    display: block;
+    z-index: 999;
+}
+
+
+@media (min-width:650px) {
+    .visible {
+        display: block;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .opp {
+        display: none;
+    }
+    .head {
+        grid-template-columns: .5fr .5fr 2fr .5fr .5fr;
+    }
 }

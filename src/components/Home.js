@@ -1,18 +1,19 @@
 import './home.css'
 import React from 'react'
 import { AiFillDownCircle } from 'react-icons/ai'
-import emailLogo from './logos/email-logo-3.png'
+import emailLogo from './logos/email-icon-2.png'
 import github from './logos/github-logo.png'
 import linkedin from './logos/linkedin-logo.png'
-import home from './logos/home-back.jpg'
+import homePic from './logos/home-back-5.png'
 
-const Home = ({ scrollTo }) => {
+const Home = ({ scrollTo, home,contact }) => {
 
     return (
-        <div>
+        <div ref={home} style={{position:'relative'}}>
             {/* // change the height vh to be mobile supportive */}
 
-            <div style={{ backgroundImage: `url(${home})`, width: '100%', height: '100vh' }}>
+            <div className='back' style={{ background: `url(${homePic}) no-repeat top center`, backgroundSize:'cover',width: '100%', height: '100vh' }}>
+                {/* <img src={homePic} className='pic'/> */}
                 <div className='grid-display'>
                     <div className='header'>Christopher Su</div>
                     <div className='title'>
@@ -21,14 +22,16 @@ const Home = ({ scrollTo }) => {
                     </div>
 
                     <div className='logo'>
-                        <img src={emailLogo} style={{ height: '2.5em' }} />
-                        <img src={linkedin} style={{ height: '2.5em' }} />
-                        <img src={github} style={{ height: '2.5em' }} />
+                        <img src={emailLogo} style={{ height: '2.5em',cursor:'pointer' }} onClick={contact} />
+                        <a href="https://www.linkedin.com/in/christopher-su-15694a1b0/" className='link'> <img src={linkedin} style={{ height: '2.5em' }} /></a>
+                        <a href="https://github.com/chrisquinn135" className='link'> <img src={github} style={{ height: '2.5em' }} /></a>
+                       
                     </div>
 
 
                 </div>
-                <div style={{ textAlign: 'center', fontSize: '2.5em' }} ><AiFillDownCircle style={{ cursor: 'pointer' }} onClick={scrollTo} /></div>
+                
+                <div style={{ zIndex:200,textAlign: 'center', fontSize: '2.5em', position:'absolute',bottom:'.5em',left:'50%', transform: 'translate(-50%, -50%)' }} ><AiFillDownCircle style={{ cursor: 'pointer' }} onClick={scrollTo} /></div>
 
 
 

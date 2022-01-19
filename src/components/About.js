@@ -2,8 +2,9 @@ import React, { useRef } from 'react'
 import './about.css'
 import { Button } from 'react-bootstrap'
 import chris from './logos/chris-profiel-modified.png'
+import PDF from './logos/Resume.pdf'
 
-const About = ({ about }) => {
+const About = ({ about, contact }) => {
 
 
 
@@ -15,13 +16,16 @@ const About = ({ about }) => {
                 </div>
                 <div>
                     <div className='header-3 about-head'>About Me</div>
-                    <div className='description body'>I am a fourth-year Computer-Science undergraduate at San Francisco State University and am searching for a software engineering internship. My passion is in frontend development and I look to put my best effort in any opportunities to further develop my career and growth as a software engineer.</div>
+                    <div className='description body'>I am a software engineer with a undergraduate degree in Computer Science from San Francisco State University. My passion is in frontend development and I look forward to putting my best effort in any opportunities to further develop my career and growth as a software engineer.</div>
                 </div>
             </div>
             <div className='pro-tech'>
-                <div>
-                    <div className='header-3 about-head' >Profile</div>
-                    <div className='grid body'>
+                <div className='profile'>
+                    <div className='header-3 heading' style={{color:'white'}}>Profile</div>
+                    <div className='body' style={{color:'white', lineHeight:'2em'}}>
+                    Currently, I am seeking a full time frontend developer/software engineer position. If you think I'm a good fit, please contact me via christophersu02@gmail.com.
+                    </div>
+                    <div className='grid-1 body'>
                         <div className='type'><b>Full Name:</b></div>
                         <div style={{ color: 'white' }}>Christopher Su</div>
                         <div className='type'><b>Birth Date:</b></div>
@@ -30,10 +34,11 @@ const About = ({ about }) => {
                         <div style={{ color: 'white' }}>christophersu02@gmail.com</div>
                     </div>
                 </div>
-                <div>
-
-                    <div className='header-3 about-head'>Technical Skills</div>
-                    <div className='grid'>
+                <div className='profile'>
+                    <div className='header-3 heading'  style={{color:'white'}}>Technical Skills</div>
+                    <div className='body' style={{color:'white',lineHeight:'2em'}}>
+                    I'm a dedicated and hardworking teamplayer with strengths in communciation and perseverance. My areas of expertise are frontend development, UX design, and software engineering.                </div>
+                    <div className='grid-1 body'>
                         <div className='type'><b>Programming Languages:</b></div>
                         <div style={{ color: 'white' }}>Java, C++, HTML, CSS, Javascript</div>
                         <div className='type'><b>Web Technologies:</b></div>
@@ -47,8 +52,8 @@ const About = ({ about }) => {
             </div>
 
             <div className='button-group'>
-                <Button size='lg' style={{ backgroundColor: '#A4AC86', color: 'white', }}>Hire Me!</Button>
-                <Button size='lg' style={{ backgroundColor: '#A4AC86', color: 'white', }}>Resume!</Button>
+                <Button className='mb-1'size='lg' style={{ backgroundColor: '#A4AC86', color: 'white', width:'7em'}} onClick={contact}>Hire Me!</Button>
+                <a href={PDF} target='_blank'><Button className='mb-1' size='lg' style={{ backgroundColor: '#A4AC86', color: 'white', }}>Resume!</Button></a>
             </div>
 
 

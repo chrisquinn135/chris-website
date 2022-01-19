@@ -6,9 +6,12 @@
     position:relative
 }
 
+.pro {
+  padding-bottom:2em;
+}
 
 
-@media (min-width:40em) {
+@media (min-width:650px) {
     .projects {
         padding-top:0;
         display:grid;
@@ -18,11 +21,16 @@
     }
     .pro {
         padding-top: 2em;
+        position: sticky;
+        top: 200px;
+        bottom:200px; 
+        height:500px;
     }
 }
 
 .container {
     position: relative;
+    cursor: pointer;
   }
   
   .image {

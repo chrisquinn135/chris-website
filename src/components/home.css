@@ -11,14 +11,28 @@
     margin-top:2em;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-grid-gap:5em;
+grid-gap:3em;
 }
 
 .title{
     width:15em;
 }
-@media (min-width:400px) {
+
+@media (min-width:650px) {
     .title {
         width:30em;
+    }
+    .back::after {
+        content:'';
+        height:20vh;
+        position:absolute;
+        width:100%;
+        bottom:0;
+        background: #EDEDED;
+        z-index: 100;
+    }
+
+    .logo {
+        grid-gap:5em;
     }
 }
