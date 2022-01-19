@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55f5aec7.css",
+    "main.js": "/static/js/main.2b065fa8.js",
+    "static/js/787.448f8373.chunk.js": "/static/js/787.448f8373.chunk.js",
+    "static/media/home-back-5.png": "/static/media/home-back-5.f097bd9cd1f044513655.png",
+    "static/media/chris-profiel-modified.png": "/static/media/chris-profiel-modified.c2ccd76b0b3dc13f1c41.png",
+    "static/media/portfolio.png": "/static/media/portfolio.28f0f4760feae3352b26.png",
+    "static/media/todo-homepage.png": "/static/media/todo-homepage.ca938b35522046607b3d.png",
+    "static/media/tank-home.png": "/static/media/tank-home.9b3d387e04d69fdd23d2.png",
+    "static/media/Resume.pdf": "/static/media/Resume.d9c6a40d911b0dd1bb3b.pdf",
+    "static/media/email-icon-2.png": "/static/media/email-icon-2.fe38ef4aa6e4aef1f6b1.png",
+    "static/media/github-logo.png": "/static/media/github-logo.8b483311caedaf4ac951.png",
+    "index.html": "/index.html",
+    "main.55f5aec7.css.map": "/static/css/main.55f5aec7.css.map",
+    "main.2b065fa8.js.map": "/static/js/main.2b065fa8.js.map",
+    "787.448f8373.chunk.js.map": "/static/js/787.448f8373.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55f5aec7.css",
+    "static/js/main.2b065fa8.js"
+  ]
+}
